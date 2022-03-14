@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+  color: black;
+}
+
+p {
+  color: black;
+}
+
+div {
+  color: black;
+}
+
+h1 {
+  color: #1937e4;
+}
+
+h2 {
+  color: #1937e4;
+}
+
+.App-logo {
+  height: 150px;
+  width: 150px;
+}
+
+.App-header {
+  background-color: #58daf1;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.price-btn {
+  background-color: #1937e4;
+  cursor: pointer; 
+  padding: 5px 10px;
+  color: white;
+  font-size: 15px;
+  border-radius: 44px;
+  border: 1px solid #2e2f33;
+  margin-bottom: 0px;
+  transform: translate3d(0, 0, 0);
+  transition: all 0.2s ease;
+}
+.price-btn:hover {
+  background-color: #1937e4;
+  cursor: pointer; 
+  padding: 5px 10px;
+  color: white;
+  font-size: 20px;
+  border-radius: 44px;
+  border: 1px solid #2e2f33;
+  margin-bottom: 0px;
+  transform: translate3d(0, 0, 0);
+  transition: all 0.2s ease;
+}
+
+.blk-btn {
+  background-color: #1d1b1b;
+  cursor: pointer; 
+  padding: 5px 15px;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  border-radius: 44px;
+  border: 2px solid #1937e4;
+  margin-bottom: 0px;
+  transform: translate3d(0, 0, 0);
+  transition: all 0.2s ease;
+}
+.blk-btn:hover {
+  background-color: #ffffff;
+  cursor: pointer; 
+  padding: 5px 15px;
+  color: #1937e4;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 44px;
+  border: 3px solid #1937e4;
+  margin-bottom: 0px;
+}
+
+#kyc {
+  display: none;
+}
