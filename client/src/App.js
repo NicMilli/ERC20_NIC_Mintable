@@ -154,9 +154,9 @@ class App extends Component {
         <button type="button" className= 'blk-btn' onClick={this.handleKycWhitelisting}>Add to Whitelist</button> 
         </div>
 
-        <h2>Buy Tokens</h2>
-        <p>Please send funds to this address to buy tokens: <br></br>{this.state.tokenSaleAddr}</p>
-        <p>You currently have: {this.state.userTokens} NIC tokens!</p>
+        <h2><span>Buy Tokens</span></h2>
+        <p><span>Please send funds to this address to buy tokens: <br></br>{this.state.tokenSaleAddr}</span></p>
+        <p><span>You currently have: {this.state.userTokens} NIC tokens!</span></p>
         <button type="button" className= 'blk-btn' onClick={this.handleBuyTokens}>Buy More Tokens</button>
       </div>
     );

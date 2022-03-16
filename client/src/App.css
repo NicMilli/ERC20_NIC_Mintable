@@ -5,7 +5,9 @@
 
 p {
   color: black;
-  display: inline;
+}
+
+p span {
   background-color: white;
 }
 
@@ -15,13 +17,14 @@ div {
 
 h1 {
   color: #1937e4;
-  display: inline;
   background-color: white;
 }
 
 h2 {
   color: #1937e4;
-  display: inline;
+}
+
+h2 span {
   background-color: white;
 }
 
