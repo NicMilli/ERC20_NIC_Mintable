@@ -5,6 +5,7 @@
 
 p {
   color: black;
+  display: inline;
   background-color: white;
 }
 
@@ -14,11 +15,13 @@ div {
 
 h1 {
   color: #1937e4;
+  display: inline;
   background-color: white;
 }
 
 h2 {
   color: #1937e4;
+  display: inline;
   background-color: white;
 }
 
