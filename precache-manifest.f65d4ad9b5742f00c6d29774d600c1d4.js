@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "00ba9db9bef5d7f391a2fcfa32989ef1",
+    "revision": "fa9503eabf54b381cea7e495e5b4db04",
     "url": "/ERC20_NIC_Mintable/index.html"
   },
   {
