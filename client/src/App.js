@@ -142,7 +142,7 @@ class App extends Component {
       }}>
         <header className='App-header' ><img className='App-logo' src={mylogo} alt="logo"/></header>
         <h1>Nic's Token Sale</h1>
-        <p>View the current ethereum price in USD:<button type="button" className='price-btn' onClick={this.priceview}><strong>Ethereum Price</strong></button></p>
+        <p>View the current ethereum price in USD:&nbsp;<button type="button" className='price-btn' onClick={this.priceview}><strong>Ethereum Price</strong></button></p>
         <p>The token cost is 1 Wei or ${this.state.cost} - NOW THATS A STEAL!</p>
         <p>Current token supply: {this.state.tokenSupply}</p>
 
