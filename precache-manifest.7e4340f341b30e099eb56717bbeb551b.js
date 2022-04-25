@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fa9503eabf54b381cea7e495e5b4db04",
+    "revision": "ba930ddbd6674d42516fc116648d216d",
     "url": "/ERC20_NIC_Mintable/index.html"
   },
   {
-    "revision": "bb0904ba43ff566d6a7c",
+    "revision": "f69df3323dfe2a20d7b5",
     "url": "/ERC20_NIC_Mintable/static/css/main.2cc60e92.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ERC20_NIC_Mintable/static/js/2.6d68e015.chunk.js"
   },
   {
-    "revision": "bb0904ba43ff566d6a7c",
-    "url": "/ERC20_NIC_Mintable/static/js/main.ca1b154c.chunk.js"
+    "revision": "f69df3323dfe2a20d7b5",
+    "url": "/ERC20_NIC_Mintable/static/js/main.86316fba.chunk.js"
   },
   {
     "revision": "7a5ff32b0be8d6797fd0",

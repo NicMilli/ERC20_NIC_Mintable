@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ERC20_NIC_Mintable/precache-manifest.f65d4ad9b5742f00c6d29774d600c1d4.js"
+  "/ERC20_NIC_Mintable/precache-manifest.7e4340f341b30e099eb56717bbeb551b.js"
 );
 
 self.addEventListener('message', (event) => {
