@@ -23,7 +23,7 @@ const client = new CoinGeckoClient({
 
 
 class App extends Component {
-  state = {loaded: false, kycAddress: "0x123...", tokenSaleAddr: "No address set yet", 
+  state = {loaded: false, kycAddress: "0x123...", tokenSaleAddr: "No address set yet",
   tokenAddr: null, userTokens: 0, tokenSupply:0, cost:0, price:0 };
 
   componentDidMount = async () => {
@@ -55,13 +55,13 @@ class App extends Component {
       // Set web3, accounts, and contract to the state, and then proceed with an
       // example of interacting with the contract's methods.
       this.listenToTokenTransfer();
-      this.setState({loaded: true, tokenSaleAddr: NicTokenSale.networks[this.networkId].address, 
+      this.setState({loaded: true, tokenSaleAddr: NicTokenSale.networks[this.networkId].address,
         tokenAddr: NicToken.networks[this.networkId].address },
          this.updateTokenCounts, this.priceSet());
     } catch (error) {
       // Catch any errors for any of the above operations.
       alert(
-        `Failed to load web3, accounts, or contract. Check console for details. 
+        `Failed to load web3, accounts, or contract. Check console for details.
         Please install the metamask plugin and connect to the Ropsten test network in order to buy coins
         You may need to show test networks in settings, advanced, show test networks`,
       );
@@ -119,15 +119,15 @@ class App extends Component {
           x.style.display = 'none';
          }
       }
-  
+
 
   render() {
     if (!this.state.loaded) {
       return <div className="App">Loading Web3, accounts, and contract...<br></br>
-        <h2>In order to buy coins, please install the metamask plugin on chrome or firefox and connect to the Ropsten test network.</h2> <br></br>
+        <h2>In order to buy coins, please install the metamask plugin on chrome or firefox and connect to the Goerli test network.</h2> <br></br>
         <a href="https://metamask.io/download/">Download Metamask Extension For Your Browser!</a><br></br>
         You may need to show test networks in settings, advanced, show test networks.<br></br><br></br>Find and pin the Metamask extension in your browser<br></br>
-        <img src={extension1} alt="Instructions"></img><br></br>then, select the Ropsten test network<br></br>
+        <img src={extension1} alt="Instructions"></img><br></br>then, select the Goerli test network<br></br>
         <img src={extension2} alt="Instructions"></img><br></br>
         <br></br>You can then select 'buy' and request FREE test Ether from the test faucet.<br></br><br></br>
         <h2>Please refresh the page once connected</h2>
@@ -147,11 +147,11 @@ class App extends Component {
         <p>Current token supply: {this.state.tokenSupply}</p>
 
         <button id="toggle" type="button" className= 'btn' onClick={this.hideKYC}>Show/Hide KYC (Owner Only)</button>
-  
+
         <div id="kyc">
         <h2>Kyc Whitelisting:</h2>
         <p>Address to allow token buying: <input type="text" name="kycAddress" value={this.state.kycAddress} onChange = {this.handleInputChange} /></p>
-        <button type="button" className= 'blk-btn' onClick={this.handleKycWhitelisting}>Add to Whitelist</button> 
+        <button type="button" className= 'blk-btn' onClick={this.handleKycWhitelisting}>Add to Whitelist</button>
         </div>
 
         <h2><span>Buy Tokens</span></h2>
